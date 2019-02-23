@@ -1,0 +1,76 @@
+#container .middleList {
+    width: 100%;
+    height: 1089px;
+}
+.middleItem{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.middleItem img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+.middleItem .itemText{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 0.5s;
+}
+.middleItem .itemText .box{
+    width: 150px;
+    height: 137px;
+    color: #fff;
+    opacity: 0.6;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.5s;
+}
+.middleItem .itemText .box span{
+    font-size: 14px;
+}
+.middleItem .itemText .box .line{
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 15px auto;
+}
+.middleItem .itemText .box h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.middleItem .itemText .box button{
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-color: #e4eaec;
+    background: none;
+}
+.middleItem .itemText:hover{
+    background: rgba(0,0,0,0.5);
+}
+ul li:hover img{
+    transform: scale(1.1);
+}
+.middleItem .itemText:hover .box{
+    opacity: 0.9;
+}
+
+

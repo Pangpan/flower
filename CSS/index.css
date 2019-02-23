@@ -1,0 +1,232 @@
+
+
+.banner{
+    width: 100%;
+    /*height: 720px;
+    background: #cccccc;*/
+}
+.banner a img{
+    width: 100%;
+    height: 100%;
+}
+/*banner*/
+
+.suxin{
+    width: 100%;
+    height: 604px;
+    padding: 70px 0;
+}
+.suxinContent{
+    width: 1170px;
+    height: 604px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.suxinContent h1{
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.suxinContent .desc{
+    text-align: center;
+    color: #5e7387;
+}
+.suxinContent .owl{
+    width: 100%;
+    height: 476px;
+    margin-top: 48px;
+}
+.owl .owlLeft{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 75px;
+    text-align: center;
+    line-height: 479px;
+}
+.owl .owlRight{
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 75px;
+    text-align: center;
+    line-height: 479px;
+}
+.owl img{
+    width: 30px;
+    height: 30px;
+}
+.suxinContent .owlMiddle{
+    display: inline-block;
+    overflow: hidden;
+    width:1020px;
+    height: 100%;
+    margin: 0 auto;
+}
+.owlMiddle .owlList{
+    width: 1400px;
+    height: 100%;
+}
+.owlMiddle .owlItem{
+    float: left;
+    width: 320px;
+    height: 100%;
+    margin-right: 30px;
+    text-align: center;
+}
+.owlItem img{
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.owlItem h2{
+    font-size: 18px;
+    color: #37474f;
+    font-weight: normal;
+    line-height: 2;
+}
+.owlItem p{
+    font-size: 14px ;
+    color: #757575;
+    text-align: left;
+    margin-bottom: 11px;
+}
+.owlItem a{
+    display: inline-block;
+    width: 100%;
+    height: 23px;
+    background: #f96868;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 6px 0;
+    line-height: 23px;
+    border-radius: 3px;
+}
+.owlItem a:hover{
+    background: #fa7373;
+    transition:all .5s;
+}
+/*suxin(素馨花卉)*/
+
+.flower{
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+.flower .flowerContent{
+    width: 1170px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 0;
+/*    background: #16b0dc;*/
+}
+.flowerContent h1{
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+.flowerList{
+    width: 100%;
+    height: 560px;
+/*    background: #ffce00;*/
+}
+.flowerList .flowerItem{
+    float: left;
+    width: 555px;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 30px;
+/*    background: #ff24cb;*/
+}
+.flowerList .flowerItem:nth-of-type(eve){
+    margin-right: 0;
+}
+.flowerItem .itemThumb{
+    float: left;
+    width: 160px;
+    height: 96px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+/*    background: red;*/
+}
+.itemThumb a,.itemThumb a img{
+    width: 100%;
+    height: 100px;
+}
+.flowerItem .itemInfo{
+    float:right;
+    width: 375px;
+    height: 100%;
+/*    background: #ff5f17;*/
+    font-size: 14px;
+    color: #76838f;
+}
+.itemInfo h2 a{
+    font-weight: 400;
+    font-size: 18px;
+    transition: all ease .5s;    /*过渡*/
+}
+.itemInfo h2 a:hover{
+    color: #4c89ff;
+    text-decoration: underline;
+}  /*超链接鼠标悬停样式*/
+.itemInfo p.infoDesc{
+    line-height: 1.5;
+    overflow: hidden;        /*超出部分被隐藏*/
+    padding: 5px 0;
+    height: 2.8em;
+    position: relative;
+}
+.itemInfo p.infoDesc::after{
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/*flowerContent*/
+
+.studio{
+    width: 100%;
+    height: 850px;
+    background: #ffffff;
+    padding-top: 70px;
+}
+.studio h3{
+    height: 43px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 11px;
+}
+.studio .stuContent{
+    height: 612px;
+    margin-top: 50px;
+    text-align: center;
+    padding:30px;
+    font-size: 16px;
+}
+.stuContent .first{
+    height: 32px;
+    margin-bottom: 16px;
+    line-height: 32px;
+}
+.stuContent .second{
+    height: 192px;
+    line-height: 32px;
+}
+.map{
+    width: 100%;
+    height: 340px;
+    background: #ffffff;
+    margin-top: 32px;
+}
+.map a{
+    display: block;
+}
+/*studio（工作室）*/
+

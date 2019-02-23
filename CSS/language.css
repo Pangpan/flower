@@ -1,0 +1,167 @@
+
+
+#container{
+    background: #f1f1f1;
+    margin-top: 79px;
+}
+#container .conTitle{
+    height: 120px;
+    text-align: center;
+    line-height: 100px;
+}
+#container .conTitle h1{
+    font-size: 35px;
+    color: #F67A82;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+.conContent{
+    padding:30px 0;
+}
+.conRow{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.conRow .left{
+    background: #ffffff;
+    width: 75%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.conRow .left .leftList{
+    overflow: hidden;
+}
+.leftList .leftItem{
+    overflow: hidden;
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f2f5;
+    box-sizing: border-box;
+}
+.leftList .leftItem .itemPic{
+    width: 160px;
+    padding-right: 20px;
+    float: left;
+}
+.leftList .leftItem .itemPic img{
+    width: 160px;
+    height: 160px;
+}
+.leftList .leftItem .itemText{
+    float: right;
+    text-align: left;
+    width: 637px;
+}
+.leftList .leftItem .itemText h4{
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+.leftList .leftItem .itemText h4 a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.leftList .leftItem .itemText .des{
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.leftList .leftItem .itemText .info{
+    font-size: 16px;
+    color: #a3afb7;
+    font-weight: 300;
+}
+.leftItem .itemText .info .name{
+    margin-left: 10px;
+}
+.left .page{
+    margin-top: 31px;
+    text-align: center;
+    font-size: 14px;
+}
+.left .page a{
+    color: #76838f;
+}
+.left .page a:hover{
+    background: rgba(228, 234, 236, 0.22);
+}
+.left .page .red{
+    background: #f86867;
+    border-color: #f86867;
+    color: #ffffff;
+}
+.left .page .preSpan,.left .page .nextSpan{
+    padding: 9px 15px;
+    border: 1px solid #e4eaec;
+}
+/*left（左边）*/
+
+.conRow .right{
+    width: 25%;
+    height: 200px;
+    float: right;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.rightText{
+    background: #ffffff;
+    margin-left: 15px;
+    padding: 20px;
+}
+.rightText form{
+    position: relative;
+}
+.rightText form input{
+    width: 100%;
+    height: 36px;
+    border-radius: 20px;
+    border: 1px solid #e4eaec;
+    padding-left:20px ;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.rightText form input:focus{
+    outline: none;
+    border-color: #62a8ea;
+}
+.rightText form i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.rightText .recommend{
+    margin: 20px 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+.rightText .recommend h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.recommendList{
+    margin-top: 10px;
+}
+.recommendItem{
+    padding: 10px 15px;
+    border: 1px solid #e4eaec;
+    margin-bottom: -1px;
+    font-size: 15px;
+    color: #2a333c;
+}
+.recommendItem a:hover{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+.rightText .article{
+    box-sizing: border-box;
+    margin-bottom: 11px;
+    font-size: 16px;
+    color: #2a333c;
+}
